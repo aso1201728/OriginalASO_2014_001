@@ -12,11 +12,30 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
+            android:layout_below="@+id/kyouMsg"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="142dp"
+            android:layout_marginTop="60dp"
             android:text="凶です！！"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kyou" />
+
+        <TextView
+            android:id="@+id/kyouMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="36dp"
+            android:layout_toLeftOf="@+id/textView1"
+            android:text="TextView" />
 
     </RelativeLayout>
 
